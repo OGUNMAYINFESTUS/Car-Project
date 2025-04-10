@@ -1,0 +1,709 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+/* styling navbar */
+.navbar {
+    background-color: orange;
+
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-nav .nav-link img {
+    border-radius: 100%;
+}
+
+.dropdown .dropdown-menu {
+    background-color: orange;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: white;
+    color: black;
+}
+
+.d-flex .btn {
+    background-color: black;
+    color: white;
+    border: black;
+}
+
+/* styling navbar done */
+
+
+/* styling carousel start  */
+
+.carolimg img {
+    height: 80vh;
+}
+
+.carousel-control-prev span {
+    font-size: 40px;
+    color: orange;
+}
+
+.carousel-control-next span {
+    font-size: 40px;
+    color: orange;
+}
+
+.carousel-indicators .active {
+    background-color: orange !important;
+}
+
+
+
+
+/* styling carousel done  */
+
+/* <<<<<<<-----------------------> Gap <-----------------------> */
+
+/* Styling Content start  */
+
+.home {
+    padding-top: 30px;
+    padding-bottom: 5%;
+}
+
+.home h1 {
+    text-transform: capitalize;
+    color: orangered;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.motor img {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.home .card-body {
+    text-align: left;
+    margin-top: 10%;
+    text-transform: justify;
+}
+
+.card-holder {
+    border: none;
+}
+
+.home .card {
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.title::after {
+    content: '';
+    display: block;
+    width: 300px;
+    height: 10px;
+    background-color: orange;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+
+.card img {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-body {
+    border-radius: 10px;
+}
+
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 768px) {
+    .card img {
+        width: 100%;
+        /* Adjust height for smaller screens */
+        height: 100%;
+        /* Limits height on mobile */
+        object-fit: contain;
+    }
+}
+
+.home .card-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.home .card-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: initial;
+    line-height: 30px;
+}
+
+.home .card-body {
+    text-align: left;
+    margin-top: 2%;
+}
+
+.home .card {
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-body {
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.card-body .btn-warning {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .home {
+        margin-top: -250px !important;
+        /* Reduce margin at the top */
+        padding-top: 0 !important;
+    }
+
+    .home .title {
+        padding-top: -200rem !important;
+        /* Adjust title spacing */
+    }
+
+    .card {
+        margin-top: 20px !important;
+        /* Reduce space between cards */
+    }
+}
+
+
+
+@media (min-width:300px) and (max-width:768px) {
+    .carolimg img {
+        height: 30vh;
+        padding-bottom: 15px;
+
+    }
+
+    .carousel-control-prev span {
+        font-size: 20px;
+        color: orange;
+    }
+
+    .carousel-control-next span {
+        font-size: 20px;
+        color: orange;
+    }
+
+    .home h1 {
+        text-transform: capitalize;
+        color: orangered;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 5%;
+        margin-top: 90% !important;
+    }
+
+    .title::after {
+        content: '';
+        display: block;
+        width: 200px;
+        height: 10px;
+        background-color: orange;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styling Content done */
+
+/* styling footer start  */
+.footer {
+    background-color: rgb(241, 126, 11);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.footer h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer .footer-head :hover {
+    color: white;
+
+}
+
+.footer ul a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer ul a:hover {
+    color: white;
+}
+
+.footer2 {
+    background-color: rgb(126, 63, 4);
+}
+
+.footer2 p {
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+}
+
+
+/* styling footer done */
+
+
+/* <______________________________ Gap ________________________________> */
+
+
+/* Styling product page start */
+
+.banner {
+    width: 100%;
+    height: 500px;
+    /* Default height */
+    background: url('/img/banner1.avif') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Adjust height and text size for smaller screens */
+@media (max-width: 768px) {
+    .banner {
+        height: 200px;
+        /* Reduce height */
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        height: 150px;
+        /* Even smaller for mobile */
+        font-size: 1rem;
+    }
+}
+
+
+.product h1 {
+    text-transform: capitalize;
+    color: orange;
+}
+
+.product .card {
+    padding: 20px;
+    background: white;
+    border-radius: 10%;
+    /* Applies rounded corners */
+    box-shadow: 0 4px 8px orange;
+    transition: 2s;
+}
+
+
+/* .product .card:hover {
+    transform: scale(1.2);
+} */
+
+.product .card:hover {
+    transform: translateY(-20px);
+
+}
+
+/* Styling product page done  */
+
+/* Styling contact page start */
+.contact-form {
+    padding-top: 3%;
+}
+
+
+.map-container {
+    position: relative;
+    width: 100%;
+    padding-top: 5%;
+    /* Aspect ratio 16:9 */
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.contact-form form {
+    outline: 2px solid orange;
+    padding: 4%;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.contact-form button {
+    background-color: orange;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 2%;
+    margin-top: 2%;
+    width: 100%;
+}
+
+
+/* Styling contact page done */
+
+
+/* styling registeration page start  */
+
+.register {
+    text-transform: capitalize;
+    color: black;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.register form {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 30%;
+    outline: 3px solid orange;
+    padding: 5%;
+}
+
+.register button {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2%;
+    margin-top: 2%;
+    width: 100%;
+}
+
+
+/* styling registeration page done */
+
+
+/* styling Car Detail start  */
+
+.det {
+    border-right: 3px solid orange;
+}
+
+
+.det img {
+    height: 80%;
+
+    object-fit: cover;
+}
+
+.detail {
+    border: 3px solid orange !important;
+    box-shadow: 0 0 50px 0 orange !important;
+}
+
+.detail h5 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+}
+
+.card body p {
+    text-transform: capitalize;
+    font-size: 15px;
+    word-spacing: 10px;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.but p {
+    font-size: 20px;
+    font-weight: bolder;
+    color: orangered;
+
+}
+
+.but button {
+    background-color: orange;
+    border: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+}
+
+/* styling Car Detail ends  */
+
+
+/* Make the table responsive */
+.row {
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+
+.table-responsive {
+    /* overflow-x: auto;
+    -webkit-overflow-scrolling: touch; */
+    border: 2px solid orange;
+}
+
+/* General Table Styling */
+
+
+table {
+    width: 100%;
+    border: 2px solid orange;
+    padding: 10px;
+
+}
+
+.cart table {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Header Styling */
+.cart thead {
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.cart th {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Table Body Styling */
+.cart tbody {
+    text-align: center;
+    background-color: #fff;
+}
+
+.cart tbody i {
+    color: red;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
+/* Trash Icon Hover Effect */
+.cart tbody i:hover {
+    transform: scale(1.2);
+}
+
+/* Table Row Styling */
+.item td {
+    border: 2px solid orange;
+    padding: 10px;
+
+}
+
+/* Table Image */
+.item img {
+    max-height: 50px;
+    width: auto;
+    border-radius: 5px;
+}
+
+/* Quantity Input */
+.item input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Update Button */
+.item .btn-success {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+.thead-dark {
+    border: 3px solid orange;
+
+}
+
+.thead-dark tr th {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: orange;
+}
+
+
+.subtotal {
+    font-weight: 600;
+}
+
+.cartbutton {
+    text-transform: capitalize;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+
+    .cart th,
+    .cart td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .item input[type="number"] {
+        width: 50px;
+    }
+
+    .item .btn-success {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .cart th,
+    .cart td {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .item input[type="number"] {
+        width: 40px;
+    }
+
+    .item .btn-success {
+        font-size: 10px;
+        padding: 3px 6px;
+    }
+
+    .cart thead {
+        font-size: 13px;
+    }
+
+    .item img {
+        max-height: 40px;
+    }
+}
+
+/* styling checkout page start  */
+.cart h1 {
+    text-transform: capitalize;
+    color: orangered;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.total td {
+    font-weight: 700;
+}
+
+.checkout {
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid orange;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* styling checkout page end  */
