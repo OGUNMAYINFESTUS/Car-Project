@@ -116,7 +116,7 @@
 .title::after {
     content: '';
     display: block;
-    width: 300px;
+    width: 200px;
     height: 10px;
     background-color: orange;
     margin-left: auto;
@@ -250,28 +250,11 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Styling Content done */
+
+
+        /* This ia a gap            */
+
 
 /* styling footer start  */
 .footer {
@@ -424,6 +407,7 @@
 
 /* Styling contact page done */
 
+            /* Gap          */
 
 /* styling registeration page start  */
 
@@ -698,12 +682,82 @@ table {
     padding: 10px;
 }
 
-
-
-
-
-
-
-
-
 /* styling checkout page end  */
+
+
+/* Styling profile section starts here   */
+.title{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 900;
+    color: orangered;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.pavat{
+    text-align: center;
+}
+
+.pavat img {
+    height: 200px;
+    border-radius: 100%;
+}
+
+.pavat h4 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.plink {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+.plink h2 {
+    text-transform: capitalize;
+    border-bottom: 3px solid black;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.plink li a{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;   
+}
+
+.plink li a:hover {
+    color: white;
+}
+
+.pform form {
+    outline: 3px solid orange;
+    padding: 5%;
+    font-size: 1.0em; 
+}
+
+.pform form label {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.pform form input {
+    outline: 0.5px solid black;
+}
+
+.pform form input:hover {
+    outline: 2px solid orange;
+}
+
+
+
+
+/* Styling profile section done here */
